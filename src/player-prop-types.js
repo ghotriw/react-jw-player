@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  aspectRatio: PropTypes.oneOf(['inherit', '1:1', '16:9']),
+  aspectRatio: PropTypes.string,
   className: PropTypes.string,
   customProps: PropTypes.object,
   file: PropTypes.string,
