@@ -160,11 +160,11 @@ var ReactJWPlayer = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: this.props.className },
-        _react2.default.createElement('div', { id: this.props.playerId, ref: this._setVideoRef })
-      );
+      var _props2 = this.props,
+          playerId = _props2.playerId,
+          className = _props2.className;
+
+      return _react2.default.createElement('div', { id: playerId, className: className, ref: this._setVideoRef });
     }
   }]);
 
